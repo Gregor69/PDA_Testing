@@ -24,7 +24,7 @@ class CardGame:
       return card2
   
 
-  def cards_total(self, cards):
+  def get_cards_total(self, cards):
     total = 0
     for card in self.cards:
       total += card.value

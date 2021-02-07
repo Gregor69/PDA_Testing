@@ -31,7 +31,7 @@ class CardGame:
   else:
     return card2
   
-# In the function below the first line it should say 'def get_cards_total'. In the second line it should say 'total = 0'. Third line should read 'for card in self.cards'. Last line should be line up with third line.
+# In the function below the first line it should say 'def get_cards_total'. In the second line it should say 'total = 0'. Third line should read 'for card in self.cards'. Last line should be lined up with third line.
 
 def cards_total(self, cards):
   total = 

@@ -9,6 +9,9 @@ class TestCardGame(unittest.TestCase):
         self.card_game = CardGame
         self.card1 = Card("suit", 3)
         self.card2 = Card("suit", 2)
+        self.cards = CardGame("cards")
+        self.cards.total = CardGame("cards total")
+
         
         
      
@@ -21,7 +24,7 @@ class TestCardGame(unittest.TestCase):
     def test_get_highest_card(self):
         self.card1.value > self.card2.value
 
-    def test_cards_total(self):
+    def test_get_cards_total(self):
         self.cards.total
 
   
