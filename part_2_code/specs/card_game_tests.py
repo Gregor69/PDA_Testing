@@ -23,9 +23,11 @@ class TestCardGame(unittest.TestCase):
 
     def test_get_highest_card(self):
         self.card1.value > self.card2.value
+        self.assertGreater(self.card1.value)
 
     def test_get_cards_total(self):
         self.cards.total
+        self.assertEqual(self.cards.total)
 
   
 
