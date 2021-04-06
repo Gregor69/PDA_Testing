@@ -24,19 +24,19 @@ class CardGame:
     else
       return False
    
-#  The first line should start 'def', not 'dif' and there should be a comma between card1 and card2. In the third line it should read 'return card1'.
+#  The first line should start 'def', not 'dif' and it should say 'get_highest_car'. There should also be a comma between card1 and card2. In the third line it should read 'return card1'.
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
   else:
     return card2
   
-# In the function below the first line it should say 'def get_cards_total'. In the second line it should say 'total = 0'. Third line should read 'for card in self.cards'. Last line should be lined up with third line.
+# In the function below the first line it should say 'def get_cards_total'. In the second line it should say 'total = 0'. Last line should read  'return f"You have a total of {total}".'
 
 def cards_total(self, cards):
   total = 
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of {total}"
   
 ```

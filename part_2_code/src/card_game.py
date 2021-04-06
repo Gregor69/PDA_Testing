@@ -5,8 +5,8 @@
 # Correct the errors below that you spotted in task 1.
 
 class CardGame:
-  def __init__(self, cards):
-    self.cards = cards
+  # def __init__(self, cards):
+  #   self.cards = cards
 
 
 
@@ -26,6 +26,6 @@ class CardGame:
 
   def get_cards_total(self, cards):
     total = 0
-    for card in self.cards:
+    for card in cards:
       total += card.value
-    return "You have a total of" + total
+    return f"You have a total of {total}"
